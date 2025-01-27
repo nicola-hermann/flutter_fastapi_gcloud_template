@@ -12,7 +12,7 @@ TEST_API_KEY = os.getenv("TEST_API_KEY")
 
 # Add your API routes here
 @app.get("/api/hello")
-def read_root():
+def hello_world():
     return {"Hello": f"World_{TEST_API_KEY}"}
 
 

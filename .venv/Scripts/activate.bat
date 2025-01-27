@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\Personal\Repos\gcloud_fastapi_template\.venv
+set VIRTUAL_ENV=D:\Personal\Repos\flutter_fastapi_gcloud_template\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

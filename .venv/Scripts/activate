@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\Personal\Repos\gcloud_fastapi_template\.venv"
+VIRTUAL_ENV="D:\Personal\Repos\flutter_fastapi_gcloud_template\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
