@@ -1,0 +1,5 @@
+# .dockerignore
+.env
+.git
+frontend/*
+!frontend/build/web
