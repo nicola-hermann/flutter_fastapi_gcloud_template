@@ -8,6 +8,7 @@ load_dotenv()
 app = FastAPI()
 
 TEST_API_KEY = os.getenv("TEST_API_KEY")
+print(os.listdir())
 
 
 # Add your API routes here
@@ -26,4 +27,4 @@ async def websocket_endpoint(websocket: WebSocket):
 
 
 # Path to the flutter build directory
-app.mount("/", StaticFiles(directory="frontend/build/web", html=True), name="static")
+app.mount("/", StaticFiles(directory="frontend_build", html=True), name="static")
